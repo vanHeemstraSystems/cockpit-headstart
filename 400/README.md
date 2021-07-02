@@ -47,5 +47,12 @@ Figure 2
 
 Click ***Podman Containers*** in the left navigation and you’ll see a warning that the service isn’t running (Figure 3).
 
-
+![image](https://user-images.githubusercontent.com/12828104/124255052-068dd580-db2a-11eb-8c92-0b412e6e9081.png)
 Figure 3
+
+Make sure the checkbox for ***Automatically start podman on boot*** is checked, and then click ***Start podman***.
+
+You should now see the Podman Containers Cockpit dashboard (Figure 4).
+
+
+Figure 4
