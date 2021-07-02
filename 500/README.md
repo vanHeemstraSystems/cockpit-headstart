@@ -14,16 +14,16 @@ Pinger is great for explaining and understanding the gist of how Cockpit works. 
 
 - Modern frameworks for creating page contents. For any non-trivial page you really don’t want to dabble with piecing together ```myelement.innerHTML = …``` strings, but use something like [React](https://reactjs.org/) to build page contents and [PatternFly](http://www.patternfly.org/) so that your page fits into Cockpit’s design.
 
-- Use Babel to write your code in modern ES6 JavaScript.
+- Use [Babel](https://babeljs.io/) to write your code in modern [ES6 JavaScript](http://es6-features.org/).
 
-- Use ESLint to spot functional and legibility errors in your code.
+- Use [ESLint](https://eslint.org/) to spot functional and legibility errors in your code.
 
-- A build system like webpack to drive all of the above and build blobs (“minified Javascript in a single file”) that are efficiently consumable by browsers.
+- A build system like [webpack](https://webpack.js.org/) to drive all of the above and build blobs (“minified Javascript in a single file”) that are efficiently consumable by browsers.
 
 - Building of release tarballs, source and binary RPMs for testing and distribution.
 
 - Tests to make sure your code keeps working, new features work on all supported operating systems, and changes (pull requests) get validated.
 
-- As a bonus, easy and safe testing of your page in a Vagrant virtual machine.
+- As a bonus, easy and safe testing of your page in a [Vagrant virtual machine](https://www.vagrantup.com/).
 
 Sounds complex? It indeed is for someone who is not familiar with the ever-changing “modern” JavaScript world, and doesn’t want to learn the details of all of these before you can even begin working on your code. This is where the Starter Kit comes in!
