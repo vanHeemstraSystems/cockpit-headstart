@@ -27,3 +27,7 @@ Pinger is great for explaining and understanding the gist of how Cockpit works. 
 - As a bonus, easy and safe testing of your page in a [Vagrant virtual machine](https://www.vagrantup.com/).
 
 Sounds complex? It indeed is for someone who is not familiar with the ever-changing “modern” JavaScript world, and doesn’t want to learn the details of all of these before you can even begin working on your code. This is where the Starter Kit comes in!
+
+## 300 - Bootstrapping your way from zero to “works!”
+
+More ... see https://cockpit-project.org/blog/cockpit-starter-kit.html
