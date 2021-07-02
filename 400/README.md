@@ -27,6 +27,7 @@ When prompted, type your sudo password and hit Enter. After that command complet
 Before we continue on, let’s make sure you can access Cockpit. Point a web browser to: https://SERVER_IP:9090 (where SERVER_IP is the IP address of the hosting server). You should be greeted by the Cockpit login (Figure 1).
 
 ![image](https://user-images.githubusercontent.com/12828104/124254310-3c7e8a00-db29-11eb-8759-16b1e5921be7.png)
+
 Figure 1
 
 Log in with the root user’s credentials, making sure to check the box for ***Reuse my password for privileged tasks***. Why? Because at the moment, Podman isn’t capable of running rootless containers, so you’ll need that heightened privilege to work with Podman.
@@ -43,11 +44,13 @@ sudo dnf install cockpit-podman -y
 Once that command completes, log back into Cockpit (with root’s credentials) and you should see ***Podman Containers*** listed in the left sidebar (Figure 2).
 
 ![image](https://user-images.githubusercontent.com/12828104/124254843-c75f8480-db29-11eb-8907-e834cfe473a6.png)
+
 Figure 2
 
 Click ***Podman Containers*** in the left navigation and you’ll see a warning that the service isn’t running (Figure 3).
 
 ![image](https://user-images.githubusercontent.com/12828104/124255052-068dd580-db2a-11eb-8c92-0b412e6e9081.png)
+
 Figure 3
 
 Make sure the checkbox for ***Automatically start podman on boot*** is checked, and then click ***Start podman***.
