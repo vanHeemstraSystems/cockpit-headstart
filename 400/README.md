@@ -66,9 +66,20 @@ Unless you’ve already used the podman command line, you won’t have any image
 To download a new image, click ***Get new image***. In the resulting pop-up (Figure 5), type the name of the image you want to download and wait for the results.
 
 ![image](https://user-images.githubusercontent.com/12828104/124255753-d0048a80-db2a-11eb-9774-0da316851940.png)
+
 Figure 5: Downloading a container image via Cockpit.
 
 Once the results have appeared (Figure 6), select the image you want and click ***Download***.
 
-
+![image](https://user-images.githubusercontent.com/12828104/124255957-09d59100-db2b-11eb-814a-d8589df03e3c.png)
 Figure 6: Selecting the exact image you want to use.
+
+There’s one caveat you’ll experience on CentOS. Unless you’re a subscriber to RHEL, you won’t be able to download images from the Red Hat repositories. That’s okay, because if you scroll down, you’ll find images from other sources.
+
+After the image downloads, you’ll see it listed in the Dashboard. Click the run button (right-pointing arrow) associated with the image and you can then configure a container to be deployed in the resulting popup window (Figure 7).
+
+
+
+Figure 7: Configuring your container for deployment.
+
+
