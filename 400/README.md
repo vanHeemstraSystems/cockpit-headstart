@@ -38,7 +38,12 @@ However, we’ve not added Podman support yet. So let’s add it. Log out of Coc
 
 In order to add Podman support, you’ll need to install another application. At the terminal window, issue the following command:
 ```
-sudo dnf install cockpit-podman -y
+$ sudo dnf install cockpit-podman -y
+```
+
+***Note***: If dnf is not yet installed, see https://ostechnix.com/install-dnf-centos-7/
+```
+$ sudo yum install dnf
 ```
 
 Once that command completes, log back into Cockpit (with root’s credentials) and you should see ***Podman Containers*** listed in the left sidebar (Figure 2).
