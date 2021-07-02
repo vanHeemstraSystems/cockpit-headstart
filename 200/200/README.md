@@ -7,7 +7,7 @@ Cockpit is included in CentOS 7.x:
 sudo yum install cockpit
 ```
 
-2.Enable cockpit:
+2. Enable cockpit:
 ```
 sudo systemctl enable --now cockpit.socket
 ```
