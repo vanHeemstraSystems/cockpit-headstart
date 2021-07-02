@@ -40,10 +40,12 @@ In order to add Podman support, you’ll need to install another application. At
 sudo dnf install cockpit-podman -y
 ```
 
-Once that command completes, log back into Cockpit (with root’s credentials) and you should see Podman Containers listed in the left sidebar (Figure 2).
+Once that command completes, log back into Cockpit (with root’s credentials) and you should see ***Podman Containers*** listed in the left sidebar (Figure 2).
 
-
+![image](https://user-images.githubusercontent.com/12828104/124254843-c75f8480-db29-11eb-8907-e834cfe473a6.png)
 Figure 2
 
+Click ***Podman Containers*** in the left navigation and you’ll see a warning that the service isn’t running (Figure 3).
 
 
+Figure 3
