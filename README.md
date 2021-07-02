@@ -30,4 +30,6 @@ After installing and enabling Cockpit, visit port ```9090``` on your server (for
 
 Use your system user account and password to log in. See [the guide](https://cockpit-project.org/guide/latest/guide) for more info.
 
+## 400 - Add Container Support to Cockpit
 
+Based on "How to add container support to red hat cockpit" at https://thenewstack.io/how-to-add-container-support-to-red-hat-cockpit/
