@@ -84,11 +84,8 @@ Figure 7: Configuring your container for deployment.
 
 Your deployed container will now be listed in the Podman Dashboard (Figure 8).
 
-
+![image](https://user-images.githubusercontent.com/12828104/124256408-8bc5ba00-db2b-11eb-816a-64c55c0a9241.png)
 
 Figure 8: A running container listed in the Podman Cockpit Dashboard.
 
-
-
-
-
+And that’s all there is to adding container support to the Cockpit web-based GUI. Although you might not work all of your container magic within the confines of this tool, it can make the management of your containers and images significantly easier.
