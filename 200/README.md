@@ -6,4 +6,6 @@ See also https://cockpit-project.org/running.html to check your Browser compatib
 
 ## 200 - Installing and Enabling Cockpit on CentOS
 
+See [README.md](./200/README.md)
+
 more ...
