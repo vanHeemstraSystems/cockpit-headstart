@@ -3,7 +3,9 @@
 Cockpit is included in Red Hat Enterprise Linux 7 and later.
 
 On RHEL 7, enable the Extras repository.
+```
 sudo subscription-manager repos --enable rhel-7-server-extras-rpms
+```
 RHEL 8 does not need any non-default repositories.
 
 1. Install cockpit:
