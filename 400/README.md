@@ -78,8 +78,17 @@ There’s one caveat you’ll experience on CentOS. Unless you’re a subscriber
 
 After the image downloads, you’ll see it listed in the Dashboard. Click the run button (right-pointing arrow) associated with the image and you can then configure a container to be deployed in the resulting popup window (Figure 7).
 
-
+![image](https://user-images.githubusercontent.com/12828104/124256203-54efa400-db2b-11eb-9cc2-d16a9accf8c5.png)
 
 Figure 7: Configuring your container for deployment.
+
+Your deployed container will now be listed in the Podman Dashboard (Figure 8).
+
+
+
+Figure 8: A running container listed in the Podman Cockpit Dashboard.
+
+
+
 
 
