@@ -65,6 +65,10 @@ Unless you’ve already used the podman command line, you won’t have any image
 
 To download a new image, click ***Get new image***. In the resulting pop-up (Figure 5), type the name of the image you want to download and wait for the results.
 
-
+![image](https://user-images.githubusercontent.com/12828104/124255753-d0048a80-db2a-11eb-9774-0da316851940.png)
 Figure 5: Downloading a container image via Cockpit.
 
+Once the results have appeared (Figure 6), select the image you want and click ***Download***.
+
+
+Figure 6: Selecting the exact image you want to use.
