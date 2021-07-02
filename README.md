@@ -22,7 +22,7 @@ Thanks to Cockpit intentionally using system APIs and commands, a whole team of 
 
 ## 200 - Installing and Enabling Cockpit
 
-
+See [README.md](./200/README.md)
 
 ## 300 - Getting Started
 
