@@ -72,6 +72,7 @@ Figure 5: Downloading a container image via Cockpit.
 Once the results have appeared (Figure 6), select the image you want and click ***Download***.
 
 ![image](https://user-images.githubusercontent.com/12828104/124255957-09d59100-db2b-11eb-814a-d8589df03e3c.png)
+
 Figure 6: Selecting the exact image you want to use.
 
 There’s one caveat you’ll experience on CentOS. Unless you’re a subscriber to RHEL, you won’t be able to download images from the Red Hat repositories. That’s okay, because if you scroll down, you’ll find images from other sources.
