@@ -28,7 +28,7 @@ Before we continue on, let’s make sure you can access Cockpit. Point a web bro
 
 ![image](https://user-images.githubusercontent.com/12828104/124254310-3c7e8a00-db29-11eb-8759-16b1e5921be7.png)
 
-Figure 1
+Figure 1: The Cockpit login.
 
 Log in with the root user’s credentials, making sure to check the box for ***Reuse my password for privileged tasks***. Why? Because at the moment, Podman isn’t capable of running rootless containers, so you’ll need that heightened privilege to work with Podman.
 
@@ -45,17 +45,26 @@ Once that command completes, log back into Cockpit (with root’s credentials) a
 
 ![image](https://user-images.githubusercontent.com/12828104/124254843-c75f8480-db29-11eb-8907-e834cfe473a6.png)
 
-Figure 2
+Figure 2: We’ve successfully added Podman support to Cockpit.
 
 Click ***Podman Containers*** in the left navigation and you’ll see a warning that the service isn’t running (Figure 3).
 
 ![image](https://user-images.githubusercontent.com/12828104/124255052-068dd580-db2a-11eb-8c92-0b412e6e9081.png)
 
-Figure 3
+Figure 3: The Cockpit Podman service isn’t running.
 
 Make sure the checkbox for ***Automatically start podman on boot*** is checked, and then click ***Start podman***.
 
 You should now see the Podman Containers Cockpit dashboard (Figure 4).
 
+![image](https://user-images.githubusercontent.com/12828104/124255345-59678d00-db2a-11eb-9d98-db3ace78dc9c.png)
 
-Figure 4
+Figure 4: The Podman Container dashboard.
+
+Unless you’ve already used the podman command line, you won’t have any images or containers listed in the dashboard. Let’s fix that.
+
+To download a new image, click ***Get new image***. In the resulting pop-up (Figure 5), type the name of the image you want to download and wait for the results.
+
+
+Figure 5: Downloading a container image via Cockpit.
+
