@@ -10,4 +10,4 @@ See [README.md](./100/README.md)
 
 See [README.md](./200/README.md)
 
-more ...
+more ... see https://cockpit-project.org/running.html
